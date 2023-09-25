@@ -1,3 +1,3 @@
 Проект «Оно тебе надо»
 Страница аукциона вещей, в которые никто не верил. Стэк технологий: HTML, CSS
-Ссылка на проект — https://lskalinka.github.io/ono-tebe-nado/
+Ссылка на репозиторий проекта — https://github.com/lskalinka/ono-tebe-nado.git
