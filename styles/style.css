@@ -14,7 +14,7 @@
 
 .address {
   justify-self: start;
-  width: 240px;
+  max-width: 240px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -32,8 +32,8 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
-  list-style: circle;
   text-underline-offset: 4px;
+  list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
@@ -47,6 +47,7 @@
 .header__logo {
   display: block;
 }
+
 .header__logo-image {
   width: 148px;
   height: 105px;
@@ -92,13 +93,13 @@
 
 .aligned-text_center {
   margin: 20px 0 20px;
-  text-align: center;
   line-height: 100%;
+  text-align: center;
 }
 
 .aligned-text_right {
-  text-align: right;
   line-height: 100%;
+  text-align: right;
 }
 
 .letter-spacing-extended {
@@ -121,7 +122,6 @@
 
 .cover__description-text {
   color: #fff;
-  font-family: Raleway;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -136,7 +136,6 @@
   height: 52px;
   border: 1px solid #fff;
   color: #fff;
-  font-family: Raleway;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -239,10 +238,10 @@
   display: grid;
   grid-template-columns: 430px 1fr;
   grid-template-rows: 1fr;
+  gap: 25px;
   width: 1340px;
   margin: auto;
   padding: 181px 0 180px;
-  gap: 25px;
 }
 
 .about__logo {
@@ -293,7 +292,6 @@
   flex-direction: column;
   justify-content: center;
   color: #000;
-  font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -303,8 +301,8 @@
 }
 
 .footer__links-list-item {
-  white-space: no-wrap;
   text-underline-offset: 4px;
+  white-space: nowrap;
 }
 
 .footer__link_active {
